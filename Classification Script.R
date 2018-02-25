@@ -8,7 +8,7 @@ if (!require(tidytext)) install.packages("tidytext",repos="http://cran.us.r-proj
 if (!require(h2o)) install.packages("h2o",repos="http://cran.us.r-project.org",dependencies = T)
 if (!require(tm)) install.packages("tm",repos="http://cran.us.r-project.org",dependencies = T)
 
-#Load Amazon dataset
+#Load Amazon dataset (data from https://www.kaggle.com/snap/amazon-fine-food-reviews/data)
 products =  fread("Reviews.csv")
 
 #Use helpful reviews
